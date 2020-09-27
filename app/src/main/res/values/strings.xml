@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sos_helpme</string>
+    <string name="SOS_button">SOS</string>
+    <string name="ADD_button">初次使用请点我</string>
+    <string name="urgent_message">输入紧急信息</string>
+    <string name="urgent_contact1">输入紧急联系人1</string>
+    <string name="urgent_contact2">输入紧急联系人2</string>
+    <string name="urgent_contact3">输入紧急联系人3</string>
+    <string name="SAVE_button">保存</string>
+    <string name="Set_time_button">SET</string>
+    <string name="Time_confirm_button">Set</string>
+    <string name="message_Timer_activity">The urgent msg will send after:</string>
+    <string name="cancel_button">Cencel</string>
+    <string name="github_button">意见或建议？从github上联系我</string>
+    <string name="teach_text">注意：按此将发送紧急短信！</string>
+</resources>
