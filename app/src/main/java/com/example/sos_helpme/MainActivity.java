@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         github_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("https://github.com/welllhq/SOS_helpme");
+                Uri uri = Uri.parse("https://github.com/welllhq/sos_helpme");
                 Intent intent = new Intent(Intent.ACTION_VIEW,uri);
                 startActivity(intent);
             }
