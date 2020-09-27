@@ -181,9 +181,9 @@ public class MainActivity extends AppCompatActivity {
         String phoneNUM3 = sp.getString("urgent_contact3",null);
         try{
             SmsManager smsManager = SmsManager.getDefault();
-            smsManager.sendTextMessage(phoneNUM1,null,phoneMSG+"Location："+Loc_result,null,null);
-            smsManager.sendTextMessage(phoneNUM2,null,phoneMSG+"Location："+Loc_result,null,null);
-            smsManager.sendTextMessage(phoneNUM3,null,phoneMSG+"Location："+Loc_result,null,null);
+            smsManager.sendTextMessage(phoneNUM1,null,phoneMSG+"当前已知最后位置："+Loc_result,null,null);
+            smsManager.sendTextMessage(phoneNUM2,null,phoneMSG+"当前已知最后位置："+Loc_result,null,null);
+            smsManager.sendTextMessage(phoneNUM3,null,phoneMSG+"当前已知最后位置："+Loc_result,null,null);
             Toast.makeText(this, "短信发送成功", Toast.LENGTH_SHORT).show();
         }catch (Exception e){
             Toast.makeText(this, "发送失败，请检查权限或紧急联系人与信息", Toast.LENGTH_SHORT).show();

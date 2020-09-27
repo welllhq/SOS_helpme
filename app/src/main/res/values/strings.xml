@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">sos_helpme</string>
+    <string name="app_name">静默呼救</string>
     <string name="SOS_button">SOS</string>
     <string name="ADD_button">初次使用请点我</string>
     <string name="urgent_message">输入紧急信息</string>
